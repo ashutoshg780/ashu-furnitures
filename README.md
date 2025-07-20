@@ -1,61 +1,105 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Ashu Furnitures – E-Commerce Website
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Overview
+This project is a Laravel-based e-commerce furniture shop demo, created as part of the Kanha Creation internship technical assignment. It showcases a clean, fully functional shopping experience similar to Nilkamal Furniture, including product listing, details, cart, coupon, and checkout.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Product listing page (grid view)
+- Product detail page
+- Add to cart, update quantity, remove, clear cart
+- Cart icon with badge (shows count, hidden on cart/checkout pages)
+- Coupon code support (apply discount)
+- Checkout form with summary
+- Responsive design (mobile & desktop)
+- Modern, clean UI with Bootstrap 5
+- Easy to extend for admin/product management
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## Demo
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- [Screenshots and workflow included below]
+- **Live site can be provided if hosting is available**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Tech Stack
 
-## Laravel Sponsors
+- **Backend:** Laravel 10+
+- **Frontend:** Bootstrap 5, Blade templates
+- **Database:** MySQL
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## Folder Structure (for zipped submission)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+ashu-furnitures/
+├── app/
+├── public/
+│ ├── images/
+│ │ ├── chair.jpg
+│ │ ├── sofa.jpg
+│ │ └── ...
+├── resources/
+│ └── views/
+│ ├── home.blade.php
+│ ├── products.blade.php
+│ ├── product_detail.blade.php
+│ ├── cart.blade.php
+│ ├── checkout.blade.php
+│ └── ...
+├── routes/
+│ └── web.php
+├── README.md
+├── Ashu_Furnitures_Project_Report.pdf
+└── ...
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## How to Run Locally
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1. Clone the repo: git clone https://github.com/yourusername/ashu-furnitures.git
+2. `cd ashu-furnitures`
+3. Install dependencies:
+4. Copy `.env.example` to `.env`, update database info.
+5. Run migrations and seeders if provided.
+6. Start server:
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Screenshots
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/8aa0ff88-d5fd-4b3b-9178-a557be7da9e7" />
+Hommepage
+
+<img width="1744" height="2488" alt="image" src="https://github.com/user-attachments/assets/9acb1989-fb99-4e1a-8851-b85e4cf23235" />
+Products List
+
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/31509005-ffc8-49cc-8f0f-0829ce8807d9" />
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/da5b2edf-3c33-4c63-b26e-b22b48495267" />
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/0c8e77cc-8504-4bf2-9430-a5c7642a6716" />
+Products
+
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/e9aff68e-26b6-45b6-b04b-1b9dd5f8075d" />
+Cart
+
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/79fa49d8-4137-4df7-bfaa-a58da9e06827" />
+Checkout
+
+---
+
+## Contact
+
+Ashutosh Gupta  
+[GitHub Profile](https://github.com/ashutoshg780)
+[LinkedIn Profile](https://linkedin.com/in/ashutoshg780)
+Email: ashutoshg780@outlook.com
+
+---
+
+
