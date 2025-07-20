@@ -1,4 +1,5 @@
 # Ashu Furnitures – E-Commerce Website
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/8aa0ff88-d5fd-4b3b-9178-a557be7da9e7" />
 
 ## Overview
 This project is a Laravel-based e-commerce furniture shop demo, created as part of the Kanha Creation internship technical assignment. It showcases a clean, fully functional shopping experience similar to Nilkamal Furniture, including product listing, details, cart, coupon, and checkout.
