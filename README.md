@@ -74,22 +74,18 @@ ashu-furnitures/
 ---
 
 ## Screenshots
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/8aa0ff88-d5fd-4b3b-9178-a557be7da9e7" />
+hOMEPAGE
 
 (You can add a few screenshots here – homepage, products, cart, checkout, etc.)
-
----
-
-## Assignment Requirement (For Internship)
-
-> "We need an e-commerce website with a Laravel structure with full functions, similar to Nilkamal Furniture. Project should be fully functional, independent, and submitted by 20 July 2025."
 
 ---
 
 ## Contact
 
 Ashutosh Gupta  
-[GitHub Profile]([https://github.com/yourusername](https://github.com/ashutoshg780))
-[GitHub Profile]([https://github.com/yourusername](https://github.com/ashutoshg780))
+[GitHub Profile](https://github.com/ashutoshg780)
+[LinkedIn Profile](https://linkedin.com/in/ashutoshg780)
 Email: ashutoshg780@outlook.com
 
 ---
