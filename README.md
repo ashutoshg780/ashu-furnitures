@@ -75,9 +75,21 @@ ashu-furnitures/
 
 ## Screenshots
 <img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/8aa0ff88-d5fd-4b3b-9178-a557be7da9e7" />
-hOMEPAGE
+Hommepage
 
-(You can add a few screenshots here – homepage, products, cart, checkout, etc.)
+<img width="1744" height="2488" alt="image" src="https://github.com/user-attachments/assets/9acb1989-fb99-4e1a-8851-b85e4cf23235" />
+Products List
+
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/31509005-ffc8-49cc-8f0f-0829ce8807d9" />
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/da5b2edf-3c33-4c63-b26e-b22b48495267" />
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/0c8e77cc-8504-4bf2-9430-a5c7642a6716" />
+Products
+
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/e9aff68e-26b6-45b6-b04b-1b9dd5f8075d" />
+Cart
+
+<img width="1744" height="903" alt="image" src="https://github.com/user-attachments/assets/79fa49d8-4137-4df7-bfaa-a58da9e06827" />
+Checkout
 
 ---
 
