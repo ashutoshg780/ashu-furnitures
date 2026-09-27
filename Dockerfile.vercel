@@ -1,0 +1,37 @@
+FROM dunglas/frankenphp:php8.2-bookworm
+
+WORKDIR /app
+
+# Install required PHP extensions for Laravel
+RUN install-php-extensions \
+    pdo_mysql \
+    mbstring \
+    exif \
+    pcntl \
+    bcmath \
+    intl \
+    zip \
+    gd \
+    opcache
+
+# Install Composer
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+
+# Copy Laravel application
+COPY . .
+
+# Install production dependencies
+RUN composer install \
+    --no-dev \
+    --no-interaction \
+    --prefer-dist \
+    --optimize-autoloader
+
+# Laravel writable directories
+RUN chmod -R 775 storage bootstrap/cache
+
+# FrankenPHP/Caddy configuration
+COPY Caddyfile.vercel /etc/frankenphp/Caddyfile
+
+# Vercel provides PORT at runtime
+CMD ["sh", "-c", "frankenphp run --config /etc/frankenphp/Caddyfile --adapter caddyfile"]
